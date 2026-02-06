@@ -1,6 +1,10 @@
 package HotelReservation;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Scanner;
 
 public class Main {
@@ -218,5 +222,6 @@ public class Main {
         System.out.println("Thank you for using the Hotel Reservation System. Have a great day!");
     }
 }
+
 
 
