@@ -64,7 +64,7 @@ public class Main {
 
     private static void reserveRoom(Connection connection, Scanner scanner) {
         try {
-            scanner.nextLine(); // clear buffer
+            scanner.nextLine(); 
 
             System.out.print("Enter Guest Name: ");
             String guestName = scanner.nextLine();
@@ -218,4 +218,5 @@ public class Main {
         System.out.println("Thank you for using the Hotel Reservation System. Have a great day!");
     }
 }
+
 
