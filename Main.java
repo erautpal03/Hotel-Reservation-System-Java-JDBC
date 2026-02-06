@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class Main {
     private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
     private static final String username = "root";
-    private static final String password = "Ady@1234+";
+    private static final String password = "your_password"; //Enter Your Password!!
+
 
     public static void main(String[] args) {
         try {
@@ -217,3 +218,4 @@ public class Main {
         System.out.println("Thank you for using the Hotel Reservation System. Have a great day!");
     }
 }
+
